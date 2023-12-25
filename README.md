@@ -1,4 +1,4 @@
-![image](https://github.com/zn111111/Audio_Video_Stream_Parse/assets/96569348/6396efb3-2250-4219-99ea-3ec8f6c31a15)# 1 AAC
+1 AAC
 
 高级音频编码AAC（Advanced Audio Coding）有两种封装格式，音频数据交换格式ADIF（Audio Data Interchange Format）和音频数据传输流ADTS（Audio Data Transport Stream）。二者的区别主要是：
 
