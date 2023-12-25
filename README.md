@@ -1,4 +1,4 @@
-# 1 AAC
+![image](https://github.com/zn111111/Audio_Video_Stream_Parse/assets/96569348/6396efb3-2250-4219-99ea-3ec8f6c31a15)# 1 AAC
 
 高级音频编码AAC（Advanced Audio Coding）有两种封装格式，音频数据交换格式ADIF（Audio Data Interchange Format）和音频数据传输流ADTS（Audio Data Transport Stream）。二者的区别主要是：
 
@@ -9,7 +9,8 @@
 
 AAC原始码流是由一个个ADTS帧组成的，其结构如下图：
 
-![img](file:///C:/Users/ZouNan/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png)
+![AAC-ADTS结构](https://github.com/zn111111/Audio_Video_Stream_Parse/assets/96569348/6f8f8518-d797-4d7a-9091-ea8152c95378)
+
 
 ADTS_Header大小为一般是7个字节，如果需要对数据进行CRC校验，则会多出2个字节的校验码，那么长度则为9字节，里面包含了采样率、通道数、压缩级别以及帧长度等信息。ADTS_Header分为固定头部和可变头部，均为28bits。固定头部在帧与帧之间是一样的，而可变头部在帧与帧之间可能不同。
 
